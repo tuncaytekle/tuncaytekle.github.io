@@ -1,0 +1,82 @@
+@media screen and (max-device-width : 768px)
+{
+  .uptop 
+  {
+    font-size:150%;
+  }
+  .tell 
+  {
+    font-size:92%;
+  }
+  .smalltell
+  {
+    font-size:70%;
+  }
+  .simplebody 
+  {
+    width:100%; padding:4px;
+    text-align: justify;
+  }
+}
+@media (min-width: 768px)
+{
+  .uptop 
+  {
+    font-size:150%;
+  }
+  .tell 
+  {
+    font-size:92%;
+  }
+  .smalltell
+  {
+    font-size:70%;
+  }
+.simplebody {
+    width:450px; margin:0 auto;
+    text-align: justify;
+}
+}
+
+
+.uptop {
+    font-family: 'Lato', serif;
+    font-weight: 100; 
+ }
+ 
+ .myhr {
+ height: 1px; background-color: black;  
+width: 50%; 
+ }
+
+.tell {
+    font-family: 'Lato', serif;
+    font-weight: 300; 
+}
+
+.smalltell {
+    font-family: 'Lato', serif;
+    font-weight: 300; 
+}
+
+/* unvisited link */
+a:link {
+    color: #545454;
+}
+
+/* visited link */
+a:visited {
+    color: #545454;
+}
+
+/* mouse over link */
+a:hover {
+    color: #545454;
+}
+
+/* selected link */
+a:active {
+    color: #545454;
+}
+
+.displaynone { display:none; }
